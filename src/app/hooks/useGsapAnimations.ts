@@ -215,3 +215,30 @@ export function useGsapAnimations() {
     };
   });
 }
+
+  // ScrollTrigger.scrollerProxy("#main", {
+  //          scrollTop(value: number | undefined) {
+  //             if (value !== undefined) {
+  //               locoScroll.scrollTo(value, { duration: 0 });
+  //             } else {
+  //               return (locoScroll as any).scroll.instance.scroll.y; 
+
+  //               }
+  //             },
+  //     getBoundingClientRect() {
+  //       return {
+  //         top: 0,
+  //         left: 0,
+  //         width: window.innerWidth,
+  //         height: window.innerHeight,
+  //       };
+  //     },
+  //     pinType: (document.querySelector("#main") as HTMLElement).style.transform
+  //       ? "transform"
+  //       : "fixed",
+  //   });
+
+    // ScrollTrigger.addEventListener("refresh", () => {
+    //         locoScroll.update();
+    //     });
+   
